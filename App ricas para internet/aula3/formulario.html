@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio e Video</title>
+    <style>
+        audio{
+            width: 200px;
+            height: 200px;
+            background: red;
+            outline: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <audio id="myAudio" src="sample.mp3" controls>Este navegador nâo suporta audio</audio>
+    <video src=""></video>
+    <button onclick="playAudio()">Play</button>
+    <script>
+        let audio = document.getElementById("myAudio");
+
+        function playAudio(){
+            audio.currentTime = 60;
+            audio.play();     
+        }
+    </script>
+</body>
+</html>
