@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Jogo da Dama</title>
+
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+    <main class="container">
+
+        <h1 class="text-center">Dama</h1>
+
+        <table>
+            <tr>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)" class="noPieceHere"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)" class="noPieceHere"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+            </tr>
+            <tr>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+            </tr>
+            <tr>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)" class="noPieceHere"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)">
+                    <img ondragstart="drag(event)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Circulo_vermelho.png/640px-Circulo_vermelho.png" style="width: 30px;" id="branco-10">
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+            </tr>
+            <tr>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"> <img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+            </tr>
+            <tr>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+            </tr>
+            <tr>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                <td class="noPieceHere">
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                    <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+                    <td ondrop="drop(event)" ondragover="allowDrop(event)"><img ondragstart="drag(event)" src="https://imagepng.org/wp-content/uploads/2017/10/circulo-preto.png" style="width: 30px;" id="branco-10"></td>
+                    <td class="noPieceHere" ondragover="allowDrop(event)"></td>
+            </tr>
+        </table>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+
+
+</html>
